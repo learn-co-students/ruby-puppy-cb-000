@@ -9,7 +9,8 @@ class Dog
   end
 
   def self.clear_all
-    @@all = []
+    #@@all = []
+    @@all.clear
   end
 
   def self.all
@@ -17,4 +18,5 @@ class Dog
       puts dog.name
     end
   end
+
 end
