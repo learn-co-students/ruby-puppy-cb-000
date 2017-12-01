@@ -6,6 +6,7 @@ class Dog
 
   # initializes with an argument of a name
   def initialize(name)
-    @name = name 
+    @name = name
+    @@all << self # adds the new dog to the @@all array
   end
 end
