@@ -9,4 +9,11 @@ class Dog
     @name = name
     @@all << self # adds the new dog to the @@all array
   end
+
+  # class method that puts out the name of each dog to the terminal
+  def self.all
+    @@all.each do |dog| 
+      puts dog.name
+    end
+  end
 end
