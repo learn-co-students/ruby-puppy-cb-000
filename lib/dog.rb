@@ -7,7 +7,7 @@ class Dog
   # initializes with an argument of a name
   def initialize(name)
     @name = name
-    @@all << self # adds the new dog to the @@all array
+    @@all << self # adds the new dog instance to the @@all array
   end
 
   # class method that puts out the name of each dog to the terminal
