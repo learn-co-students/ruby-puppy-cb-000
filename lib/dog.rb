@@ -16,6 +16,3 @@ class Dog
   end
 
 end
-
-fido = Dog.new("Fido")
-doc = Dog.new("Doc")
